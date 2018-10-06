@@ -1,0 +1,5 @@
+.outer{ position: relative; overflow: hidden; width: 100%; }
+.topbar { display: block; background: #fff; border-bottom: 1px solid #f0f0f0; line-height: 34px; font-size: 0.9em; }
+.social { float: right; text-align: right; padding: 0; width: auto; }
+.header.header-with-slider { position: absolute; width: 100%; top: 0; left: 0; background-color: transparent; z-index: 999; }
+.header .logo { float: left; padding-top: 10px; padding-bottom: 10px; }

@@ -20,16 +20,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'itechgarden');
+define('DB_NAME', 'khun1478_itech');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'khun1478');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'Z5@k27GLpF');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', '112.78.2.21');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
@@ -77,7 +77,7 @@ $table_prefix  = 'wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* That's all, stop editing! Happy blogging. */
 
