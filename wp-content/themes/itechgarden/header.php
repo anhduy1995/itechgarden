@@ -32,9 +32,18 @@
 		</div>
 	</div>
 	<header id="header" class="header header-with-slider cpo-sticky">
-		<div id="logo" class="logo">
-			
+		<div class="container">
+			<div id="logo" class="logo">
+				<img src="<?php echo home_url().'/wp-content/themes/itechgarden/images/logo-itechgarden.png' ?>" >
+			</div>
+			<ul id="menu-main" class="menu-main">
+				<li id="menu-item-3479" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-3479"><a href="#">Home</a></li>
+				<li id="menu-item-3480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3480"><a href="#">Blog</a></li>
+				<li id="menu-item-3481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3481"><a href="#">Features</a></li>
+				<li id="menu-item-3490" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3490"><a href="#">Page Templates</a></li>
+			</ul>
 		</div>
 	</header>
-</body>
-</html>
+	<div id="slider" class="slider">
+		
+	</div>

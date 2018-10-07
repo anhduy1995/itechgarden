@@ -1,5 +1,33 @@
 .outer{ position: relative; overflow: hidden; width: 100%; }
 .topbar { display: block; background: #fff; border-bottom: 1px solid #f0f0f0; line-height: 34px; font-size: 0.9em; }
 .social { float: right; text-align: right; padding: 0; width: auto; }
-.header.header-with-slider { position: absolute; width: 100%; top: 0; left: 0; background-color: transparent; z-index: 999; }
-.header .logo { float: left; padding-top: 10px; padding-bottom: 10px; }
+.header.header-with-slider { position: absolute; width: 100%; top: 0; left: 0; background-color: rgba(0, 0, 0, 0.4); z-index: 999; }
+.header .logo { float: left; padding-top: 10px; padding-bottom: 10px; max-height: : 100px;}
+.header .logo img{ max-width: 40% }
+body.custom-background { background-image: url("/wp-content/themes/itechgarden/images/background.jpg"); background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
+.menu-main { float: right; }
+.menu-main > li { padding: 20px 0px; }
+.menu-main li { float: left; position: relative; display: block; margin: 0; list-style: none; }
+.menu-main li a { font-family: 'Raleway'; font-weight: 400; color: #18253c; font-size: 13px; text-transform: uppercase;line-height: 30px; display: block; margin: 0; padding: 10px; color: #777; border-radius: 2px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.menu-main li ul { z-index: 9998; left: 0; top: 100%; background: #fff; position: absolute; margin: 0; opacity: 0; visibility: hidden; transform: translateX(-50%); left: 50%; margin: 0; padding: 10px 0; background: #fff; background: rgba(255,255,255,0.9); border: 1px solid #e1e1e1; -moz-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
+.menu-main li ul li { width: auto; display: block; float: none; padding: 0 10px; }
+.slider { padding: 0; margin: 0; position: relative; text-align: center; -moz-transition: 0.3s all; -webkit-transition: 0.3s all; transition: 0.3s all; }
+body #subfooter { color: #a9afb1; }
+#subfooter, #footer { background-color: #18253c; }
+.subfooter { overflow: hidden; background: rgba(0, 0, 0, 0.4); padding: 40px 0 10px; }
+.widget { overflow: hidden; margin: 0 0 30px; }
+#subfooter .widget .widget-title { font-weight: 500; }
+.widget-title { font-size: 18px; line-height: 26px; }
+ul{ list-style: none; padding-left: 0 }
+#footer { border-top: 1px solid #a9afb1; padding: 10px 0; }
+body .dark { color: #eee; }
+.footer { position: relative; overflow: hidden; background: rgba(0, 0, 0, 0.4); padding: 50px 0 30px; clear: both; text-align: center; }
+.section { border-top: 1px solid #ddd; background: #fff; padding: 50px 0 10px; }
+body .section-heading { margin-bottom: 60px; font-size: 30px; line-height: 35px; font-weight: 800; color: #18253c; }
+.section-heading { position: relative; margin: 0 0 40px; padding: 0 0 30px; text-align: center; line-height: 1.2; font-size: 2.5em; text-transform: uppercase; }
+.section-heading:before { content: ' '; position: absolute; background: #bbb; bottom: 0; left: 50%; margin-left: -50px; width: 100px; height: 1px; background-color: #70b85d; height: 2px; width: 60px; margin-left: -30px; }
+.features .feature { margin: 0 0 40px; text-align: center; }
+.features .feature .feature-image { display: block; position: relative; min-height: 102px; margin: 0 0 20px; }
+body .primary-color { color: #70b85d; }
+.features .feature .feature-icon { position: absolute; background: #fff; left: 50%; top: 50%; font-family: 'fontawesome'; text-align: center; width: 100px; height: 100px; font-size: 30px; margin: -51px 0 0 -51px; line-height: 100px; border: 1px solid #ddd; border-radius: 50%; }
+.features .feature .feature-icon { border-style: dotted; border-color: #70b85d; color: #70b85d; }
