@@ -5,12 +5,12 @@
 .header .logo { float: left; padding-top: 10px; padding-bottom: 10px; max-height: : 100px;}
 .header .logo img{ max-width: 40% }
 body.custom-background { background-image: url("/wp-content/themes/itechgarden/images/background.jpg"); background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
-.menu-main { float: right; }
-.menu-main > li { padding: 20px 0px; }
-.menu-main li { float: left; position: relative; display: block; margin: 0; list-style: none; }
-.menu-main li a { font-family: 'Raleway'; font-weight: 400; color: #18253c; font-size: 13px; text-transform: uppercase;line-height: 30px; display: block; margin: 0; padding: 10px; color: #777; border-radius: 2px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
-.menu-main li ul { z-index: 9998; left: 0; top: 100%; background: #fff; position: absolute; margin: 0; opacity: 0; visibility: hidden; transform: translateX(-50%); left: 50%; margin: 0; padding: 10px 0; background: #fff; background: rgba(255,255,255,0.9); border: 1px solid #e1e1e1; -moz-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
-.menu-main li ul li { width: auto; display: block; float: none; padding: 0 10px; }
+#menu-menu-1 { float: right; }
+#menu-menu-1 > li { padding: 20px 0px; }
+#menu-menu-1 li { float: left; position: relative; display: block; margin: 0; list-style: none; }
+#menu-menu-1 li a { font-family: 'Raleway'; font-weight: 400; color: #18253c; font-size: 15px; text-transform: uppercase;line-height: 30px; display: block; margin: 0; padding: 10px; color: #777; border-radius: 2px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+#menu-menu-1 li ul { z-index: 9998; left: 0; top: 100%; background: #fff; position: absolute; margin: 0; opacity: 0; visibility: hidden; transform: translateX(-50%); left: 50%; margin: 0; padding: 10px 0; background: #fff; background: rgba(255,255,255,0.9); border: 1px solid #e1e1e1; -moz-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
+#menu-menu-1 li ul li { width: auto; display: block; float: none; padding: 0 10px; }
 .slider { padding: 0; margin: 0; position: relative; text-align: center; -moz-transition: 0.3s all; -webkit-transition: 0.3s all; transition: 0.3s all; }
 body #subfooter { color: #a9afb1; }
 #subfooter, #footer { background-color: #18253c; }
@@ -31,3 +31,19 @@ body .section-heading { margin-bottom: 60px; font-size: 30px; line-height: 35px;
 body .primary-color { color: #70b85d; }
 .features .feature .feature-icon { position: absolute; background: #fff; left: 50%; top: 50%; font-family: 'fontawesome'; text-align: center; width: 100px; height: 100px; font-size: 30px; margin: -51px 0 0 -51px; line-height: 100px; border: 1px solid #ddd; border-radius: 50%; }
 .features .feature .feature-icon { border-style: dotted; border-color: #70b85d; color: #70b85d; }
+.tagline { padding: 40px 0; background-color: #18253c; text-align: left; }
+.tagline-content { font-size: 26px; font-weight: 400; line-height: 44px; text-transform: initial; }
+.portfolio { clear: both; padding: 50px 0 50px; }
+.portfolio-item { display: block; overflow: hidden; position: relative; text-align: center; padding: 1px; margin: 0; }
+.portfolio-item > a.portfolio-item-link { width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 9999; }
+a:link, a:visited { color: #2a88bf; text-decoration: none; }
+.portfolio-item .portfolio-item-overlay { opacity: 0; position: absolute; top: 0; bottom: 0; left: 0; right: 0; text-align: center; -moz-transition: 0.3s all; -webkit-transition: 0.3s all; transition: 0.3s all; -moz-transition-delay: 0.1s; -webkit-transition-delay: 0.1s; transition-delay: 0.1s; z-index: 9997; }
+.primary-color-bg { background-color: #70b85d; }
+.portfolio-item .portfolio-item-title { opacity: 0; font-size: 20px; font-weight: 800; line-height: 44px; bottom: 65%; position: absolute; left: 0; opacity: 0; width: 100%; -moz-transition: 0.4s all; -webkit-transition: 0.4s all; transition: 0.4s all; z-index: 9998;}
+.portfolio-item .portfolio-item-description { font-size: 15px; line-height: 38px; top: 30%; margin: 20px 10% 0; position: absolute; left: 0; opacity: 0; width: 100%; -moz-transition: 0.4s all; -webkit-transition: 0.4s all; transition: 0.4s all; z-index: 9998;}
+.portfolio-item-description:after { display: block; content: "\f00e"; font-size: 20px; color: #fff; text-align: center; width: 50px; height: 50px; line-height: 50px;  border-radius: 100%; background-color: #46743b; margin: 0 auto; }
+body .dark a:hover { color: #fff; }
+.portfolio-item:hover .portfolio-item-overlay { opacity: 0.9; }
+.portfolio-item:hover .portfolio-item-title { opacity: 1; }
+.portfolio-item-has-excerpt:hover .portfolio-item-title, .portfolio-item:hover .portfolio-item-description  { opacity: 1; margin-bottom: 10px; }
+.portfolio-item-title{ text-align: center }
