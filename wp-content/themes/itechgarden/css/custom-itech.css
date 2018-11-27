@@ -5,12 +5,12 @@
 .header .logo { float: left; padding-top: 10px; padding-bottom: 10px; max-height: : 100px;}
 .header .logo img{ max-width: 40% }
 body.custom-background { background-image: url("/wp-content/themes/itechgarden/images/background.jpg"); background-position: center center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
-#menu-menu-1 { float: right; }
-#menu-menu-1 > li { padding: 20px 0px; }
-#menu-menu-1 li { float: left; position: relative; display: block; margin: 0; list-style: none; }
-#menu-menu-1 li a { font-family: 'Raleway'; font-weight: 400; color: #18253c; font-size: 15px; text-transform: uppercase;line-height: 30px; display: block; margin: 0; padding: 10px; color: #777; border-radius: 2px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
-#menu-menu-1 li ul { z-index: 9998; left: 0; top: 100%; background: #fff; position: absolute; margin: 0; opacity: 0; visibility: hidden; transform: translateX(-50%); left: 50%; margin: 0; padding: 10px 0; background: #fff; background: rgba(255,255,255,0.9); border: 1px solid #e1e1e1; -moz-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
-#menu-menu-1 li ul li { width: auto; display: block; float: none; padding: 0 10px; }
+.menu { float: right; }
+.menu > li { padding: 20px 0px; }
+.menu li { float: left; position: relative; display: block; margin: 0; list-style: none; }
+.menu li a { font-family: 'Raleway'; font-weight: 400; color: #18253c; font-size: 15px; text-transform: uppercase;line-height: 30px; display: block; margin: 0; padding: 10px; color: #777; border-radius: 2px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.menu li ul { z-index: 9998; left: 0; top: 100%; background: #fff; position: absolute; margin: 0; opacity: 0; visibility: hidden; transform: translateX(-50%); left: 50%; margin: 0; padding: 10px 0; background: #fff; background: rgba(255,255,255,0.9); border: 1px solid #e1e1e1; -moz-transition-delay: 0.2s; -webkit-transition-delay: 0.2s; transition-delay: 0.2s; }
+.menu li ul li { width: auto; display: block; float: none; padding: 0 10px; }
 .slider { padding: 0; margin: 0; position: relative; text-align: center; -moz-transition: 0.3s all; -webkit-transition: 0.3s all; transition: 0.3s all; }
 body #subfooter { color: #a9afb1; }
 #subfooter, #footer { background-color: #18253c; }
